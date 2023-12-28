@@ -3,6 +3,13 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+/* main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+} */
 /* html{
     width:fit-content ;
 } */
@@ -446,7 +453,7 @@ span.vertical {
 }
 
 .end {
-    background: lightgreen;
+    background: #0008ffb8;
 }
 
 .end-container {
@@ -465,7 +472,7 @@ span.vertical {
 
 .end-head h1 {
     font-size: 109px;
-    color: black;
+    color: white;
     word-spacing: 9px;
 }
 
@@ -522,7 +529,7 @@ i.fa-solid.fa-location-dot {
 
 .location p {
     font-size: 21px;
-    color: black;
+    color: #d4d4d4;
 }
 
 .email {
@@ -534,14 +541,12 @@ i.fa-solid.fa-location-dot {
     color: #ffffffdb;
     font-size: 24px;
     font-family: 'Noto Sans';
-    color:darkgreen;
 }
 
 .email p {
     font-size: 21px;
     color: #d4d4d4;
     margin: 29px 3px;
-    color:black;
 }
 
 .email span {
@@ -599,12 +604,12 @@ input#email {
 
 span.t\&c {
     font-size: 21px;
-    color: lightblue;
+    color: white;
 }
 
 span.privacy {
     font-size: 21px;
-    color: lightblue;
+    color: white;
     margin-left: 26px;
 }
 
@@ -625,9 +630,8 @@ span.privacy {
 .robo-hand{
     display: flex;
 }
-.robo-hand span img {
-    width: 73%;
-    margin-left: 136px;
+.robo-hand img {
+    width: 442px;
 }
 .menu-bar{
     display: none;
@@ -779,7 +783,7 @@ span.privacy {
     
     .text-box {
         width: 859px;
-        margin-left: 263%;
+        margin-left: 219%;
     }
     
     span.clnt-head-txt {font-size: 149px;
@@ -803,11 +807,13 @@ span.privacy {
     }
     
     p.p-1 {
-        font-size: 47px;
+        font-size: 62px;
         width: 74%;
         margin: 72px auto;
     }
-    
+    em {
+        margin: 0px 19px;
+    }
     .right-cl {
         margin: 108px;
     }
@@ -866,7 +872,7 @@ span.privacy {
     }
     
     .end {
-        width: min-content;
+        width: 303%;
     }
     
     
@@ -885,7 +891,7 @@ span.privacy {
         
     }
     
-    .robo-hand span img {
+    .robo-hand  img {
         width: fit-content;
         rotate: -90deg;
     }
@@ -1039,6 +1045,7 @@ span.privacy {
     
     span.main-txt {
         font-size: 161px;
+        margin-left: 416px;
     }
     
     em {
@@ -1114,6 +1121,7 @@ span.privacy {
         flex-direction: column;
         justify-content: center;
     }
+
     
     strong {
         font-size: 85px;
@@ -1130,7 +1138,6 @@ span.privacy {
     
     .text-box {
         width: 877px;
-        margin-left:280px;
     }
     
     i {}
@@ -1227,5 +1234,6 @@ span.privacy {
     span.privacy {
         font-size: 34px;
     }
+
     
 }
