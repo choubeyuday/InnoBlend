@@ -522,7 +522,7 @@ i.fa-solid.fa-location-dot {
 
 .location p {
     font-size: 21px;
-    color: #d4d4d4;
+    color: black;
 }
 
 .email {
@@ -534,12 +534,14 @@ i.fa-solid.fa-location-dot {
     color: #ffffffdb;
     font-size: 24px;
     font-family: 'Noto Sans';
+    color:darkgreen;
 }
 
 .email p {
     font-size: 21px;
     color: #d4d4d4;
     margin: 29px 3px;
+    color:black;
 }
 
 .email span {
@@ -597,12 +599,12 @@ input#email {
 
 span.t\&c {
     font-size: 21px;
-    color: white;
+    color: lightblue;
 }
 
 span.privacy {
     font-size: 21px;
-    color: white;
+    color: lightblue;
     margin-left: 26px;
 }
 
