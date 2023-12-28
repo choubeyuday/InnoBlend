@@ -446,7 +446,7 @@ span.vertical {
 }
 
 .end {
-    background: #0008ffb8;
+    background: lightgreen;
 }
 
 .end-container {
@@ -465,7 +465,7 @@ span.vertical {
 
 .end-head h1 {
     font-size: 109px;
-    color: white;
+    color: black;
     word-spacing: 9px;
 }
 
